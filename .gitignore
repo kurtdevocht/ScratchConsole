@@ -1,5 +1,4 @@
-﻿src/ScratchConsole/bin/
-src/ScratchConsole/obj/
+﻿
 bin/Microsoft.Owin.Hosting.xml
 bin/Newtonsoft.Json.xml
 bin/ScratchConsole.pdb
@@ -11,3 +10,5 @@ bin/System.Web.Http.Owin.xml
 bin/System.Web.Http.xml
 src/ScratchConsole/.vs/
 src/ScratchConsole/packages/
+src/ScratchConsole/bin/
+src/ScratchConsole/obj/
