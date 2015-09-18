@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScratchConsole", "ScratchConsole.csproj", "{D9196C5A-9450-4CF4-B43D-60D13F98BA06}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{94DD2DD1-7598-4F57-8818-C9DBDDB72519}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\ScratchConsole Extension.s2e = ..\..\ScratchConsole Extension.s2e
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
