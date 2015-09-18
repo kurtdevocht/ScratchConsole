@@ -13,12 +13,13 @@ namespace ScratchConsole
         {
 
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine(@"   _____                _       _      _____         _______    _ _    ");
-            Console.WriteLine(@"  / ____|              | |     | |    / ____|       |__   __|  | | |   ");
-            Console.WriteLine(@" | (___   ___ _ __ __ _| |_ ___| |__ | |     __ _ _ __ | | __ _| | | __");
-            Console.WriteLine(@"  \___ \ / __| '__/ _` | __/ __| '_ \| |    / _` | '_ \| |/ _` | | |/ /");
-            Console.WriteLine(@"  ____) | (__| | | (_| | || (__| | | | |___| (_| | | | | | (_| | |   <");
-            Console.WriteLine(@" |_____/ \___|_|  \__,_|\__\___|_| |_|\_____\__,_|_| |_|_|\__,_|_|_|\_\");
+
+            Console.WriteLine(@"   _____                _       _        _____                      _      ");
+            Console.WriteLine(@"  / ____|              | |     | |      / ____|                    | |     ");
+            Console.WriteLine(@" | (___   ___ _ __ __ _| |_ ___| |__   | |     ___  _ __  ___  ___ | | ___ ");
+            Console.WriteLine(@"  \___ \ / __| '__/ _` | __/ __| '_ \  | |    / _ \| '_ \/ __|/ _ \| |/ _ \");
+            Console.WriteLine(@"  ____) | (__| | | (_| | || (__| | | | | |___| (_) | | | \__ \ (_) | |  __/");
+            Console.WriteLine(@" |_____/ \___|_|  \__,_|\__\___|_| |_|  \_____\___/|_| |_|___/\___/|_|\___|");
 
             var port = 15004;
 
@@ -46,7 +47,7 @@ namespace ScratchConsole
                     Console.WriteLine(" - Load the 'ScratchConsole Extension.s2e'");
                     Console.WriteLine(" - Look in 'More blocks' and have fun!");
 
-                    while( true )
+                    while (true)
                     {
                         var command = Console.ReadLine();
                         ScratchController.NewCommand(command);
