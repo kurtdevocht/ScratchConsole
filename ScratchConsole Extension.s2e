@@ -1,0 +1,18 @@
+{
+  "extensionName": "ScratchConsole",
+  "extensionPort": 15004,
+
+  "blockSpecs": [
+	[ "r", "Command", "Command" ],
+	[ "r", "CommandCounter", "CommandCounter" ],
+    [ " ", "Log %s", "log", "Hi there!" ],
+	[ " ", "Log %s and start new line", "logline", "Hi there!" ],
+	[ " ", "Clear screen", "clearscreen", "Hi there!" ],
+	[ " ", "Set foreground color to %m.consoleColors", "setForegroundColor", "Gray" ],
+	[ " ", "Set background color to %m.consoleColors", "setBackgroundColor", "Black" ]
+  ],
+  
+   "menus": {
+		"consoleColors": ["Black", "Blue", "Cyan", "DarkBlue", "DarkCyan", "DarkGray","DarkGreen","DarkMagenta","DarkRed ","DarkYellow","Gray","Green","Magenta","Red","White","Yellow" ]
+	}
+}
